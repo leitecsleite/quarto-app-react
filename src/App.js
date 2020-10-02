@@ -1,26 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ListaDeSignos from './componentes/ListaDeSignos';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ListaDeSignos /> // Os componentes App (App.js) importa e exibe os componentes ListaDeSignos
   );
 }
-
-export default App;
